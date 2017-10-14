@@ -75,7 +75,7 @@ int main(int argc, char* argv[]){
 	printf("\n");
 
 	
-	////////////////prepare read//////
+	////////////////prepare write//////
 	memset(&io_hdr,0,sizeof(sg_io_hdr_t));
 	io_hdr.interface_id = 'S';
 	io_hdr.cmd_len = sizeof(w16CmdBlk);
